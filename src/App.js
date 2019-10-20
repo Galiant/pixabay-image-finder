@@ -1,10 +1,14 @@
 import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
+import Search from './Components/Search/Search';
 import './App.css';
 
 function App() {
   return (
-     <Navbar/>
+    <div>
+      <Navbar />
+      <Search />
+    </div>
   );
 }
 
